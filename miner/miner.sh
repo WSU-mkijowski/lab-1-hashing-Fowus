@@ -1,22 +1,29 @@
 #!/bin/bash
 
+echo "Starting KFC Coin miner for all words…"
 
-echo "Starting this script (hopefully it is executable with chmod a+x ./miner.sh)"
+> coins.txt  # empty output file
 
-VARIABLE=some_string
+DICT="../data/dictionary"
 
-echo $VARIABLE
+# Loop through each word in dictionary
+for word in $(cat $DICT); do
+  found=0
 
-## Prints all words in provided dictionary
-## (you might want to find a bigger dictionary)
-for i in $(cat ../data/dictionary); do
-  printf $i
-done
+  # Try nonces from 10 to 9999999 (adjust if needed)
+  for nonce in $(seq 10 9999999); do
+    candidate="${nonce}${word}"
+    hash=$(printf "%s" "$candidate" | sha256sum | awk '{print $1}')
 
+    if [[ $hash == 000* ]]; then
+      echo "$hash  -  $candidate"    # print for proof
+      echo "$candidate" >> coins.txt # save nonce+word only
+      found=1
+      break  # stop searching more nonces for this word
+    fi
+  done
 
-## prints all numbers between 100 and 105
-for i in $(seq 100 105); do
-  printf $i
-done
+  
+
 
 
