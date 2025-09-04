@@ -9,8 +9,8 @@
 
 Answer the following in this file:
 
-* How many unique users are in the data? 42
-* How many salts did you create? 42
+* How many unique users are in the data? 43
+* How many salts did you create? 43
 * How many possible combinations will I need to try to figure out the secret ID
   of all students (assume I know all potential secret IDs and have your 
   `salted-data.csv`)
@@ -28,7 +28,7 @@ learned/struggled with for task 1 here
 
 ### Task 2: Crypto Mining
 
-**Reminder Deliverable:** Is your "mining" code in this repository (`mining/`)?
+**Reminder Deliverable:** Is your "mining" code in this repository (`mining/`)? 
 **Reminder Deliverable:** Is your nonce + word combos in `coins.txt`?
 
 Answer the following:
@@ -40,9 +40,9 @@ hash)
 
 ```
 
-* How many words were in your dictionary?
-* How many nonces did your code iterate over?
-* What was the maximum number of hashes your code *could* compute given the above?
+* How many words were in your dictionary? 14
+* How many nonces did your code iterate over? 31,231
+* What was the maximum number of hashes your code *could* compute given the above? Approximately 139,999,860
 * What did you think about Task 2?
 * Is there a better way than brute force to attempt to get higher valued coins?
 * Why or why not?
