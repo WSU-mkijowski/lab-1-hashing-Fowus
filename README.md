@@ -28,8 +28,8 @@ learned/struggled with for task 1 here
 
 ### Task 2: Crypto Mining
 
-**Reminder Deliverable:** Is your "mining" code in this repository (`mining/`)? 
-**Reminder Deliverable:** Is your nonce + word combos in `coins.txt`?
+**Reminder Deliverable:** Is your "mining" code in this repository (`mining/`)? Yes 
+**Reminder Deliverable:** Is your nonce + word combos in `coins.txt`? Yes
 
 Answer the following:
 
@@ -37,6 +37,20 @@ Answer the following:
 hash)
 
 ```
+00083913eafecef118543ef2df621fbd4c54a351f96086cd4718099cd0f6dce0  -  399these
+000ac13d8480c8644dbb50d329cfa8918be92a6b37951a36b6665dcb95713c92  -  1792are
+000618d6fdd1ea7dd7d3b05289db84d6f09a8a3ef1c79b07659c841c1ecd160b  -  1301words
+00085b7acd4d28fa1453a185c8d3bfb700b1ddc8f971a34c44cd50bc851f2b40  -  213commonly
+000b60bb90880365ccce375e6c41be424489a5ed4e485d1f68673f42b7fcf0b1  -  1291found
+0009198e4177f06fbde3e4ea636142c95cb6b3333b7160bf68597854537bab08  -  8199in
+000fa2f4ba119690bc6949098dc190d75a6aadb15737277b88e5ac80b9f1b88d  -  425dictionary
+000453cc4e32bd360c51f2e1cdb8c899dde0a7a5b9f2e19fd769f201147bbe4b  -  13172battery
+000ba443838d324f2ac50a0ea5fa6423971e8a004f47641e207217c3a4eadded  -  1092horse
+000c495deff559d3d1cb4f28ccc078ef72b67cfc365486d4f204e12a67345ff1  -  2918staple
+00066aa12137eab538f1d7dee3cc14ac672aa2cf8ed633efc1dcd236b5b3171a  -  1644xkcd
+00018c2e23b216fccf037ff20a24964c16d684b1ce2a406dc20b360fedcc332e  -  888orange
+000ca36d82d05861d75108db38dbdeee4eb97eecb5010724ff278d85a2722618  -  1964supercalifragilisticexpialidocious
+000f259c5e2c9a9e794d9d3d47c05477323712ec7e99e8f9182abdc004da2c77  -  1933wonderful
 
 ```
 
