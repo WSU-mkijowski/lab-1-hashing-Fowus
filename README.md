@@ -58,8 +58,8 @@ hash)
 * How many nonces did your code iterate over? 31,231
 * What was the maximum number of hashes your code *could* compute given the above? Approximately 139,999,860
 * What did you think about Task 2? Task 2 was challenging but interesting. I initially tried manually searching for nonces but quickly realized it would take forever. I then wrote a for-loop script that efficiently generated the nonces for each word. Overall, it was tougher than I expected, but a great learning experience.
-* Is there a better way than brute force to attempt to get higher valued coins?
-* Why or why not?
+* Is there a better way than brute force to attempt to get higher valued coins? No, Brute force remains the only correct method
+* Why or why not? Brute force is the only way to find valid hashes because SHA256 produces unpredictable outputs. There’s no way to guess a nonce and word that will give leading zeros, so we have to try different combinations one by one until we find a match.
 
 
 ```bash
