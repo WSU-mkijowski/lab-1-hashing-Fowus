@@ -57,7 +57,7 @@ hash)
 * How many words were in your dictionary? 14
 * How many nonces did your code iterate over? 31,231
 * What was the maximum number of hashes your code *could* compute given the above? Approximately 139,999,860
-* What did you think about Task 2?
+* What did you think about Task 2? Task 2 was challenging but interesting. I initially tried manually searching for nonces but quickly realized it would take forever. I then wrote a for-loop script that efficiently generated the nonces for each word. Overall, it was tougher than I expected, but a great learning experience.
 * Is there a better way than brute force to attempt to get higher valued coins?
 * Why or why not?
 
