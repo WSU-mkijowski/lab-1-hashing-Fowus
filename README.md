@@ -15,15 +15,14 @@ Answer the following in this file:
   of all students (assume I know all potential secret IDs and have your 
   `salted-data.csv`) Each user has their own unique salt, so it will be 43 users times the secret IDs that exists, you’d need to try all combinations. So approximately 55,986  
 * Instead of salts, if you were to use a nonce (unique number for each hashed
-  field) how many possible combinations would I need to try? 
+  field) how many possible combinations would I need to try? If nonce is used per field, the number of combinations explodes, because it’s per response instead of per user. If the dataset has M rows (each answer), and there are N possible secret IDs, then you’d need to try M × N combinations. Since we have thousands of rows, this is way bigger.
 * Given the above, if this quiz data were *actual* class data, say for example
   your final exam, how would you store this dataset?  Why? I would store the dataset using nonces instead of salts, because that makes brute-force attacks significantly harder. Each record would need to be cracked individually, which increases security.
 
 ```bash
-please put any cool bash one-liners or other piped commands you
-learned/struggled with for task 1 here
+cat quiz_data.csv | awk -F ',' '{ print $1}'
 ```
-
+awk 
 ---
 
 ### Task 2: Crypto Mining
